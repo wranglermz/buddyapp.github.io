@@ -1,0 +1,42 @@
+/* Add some styles to make it look nice */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f2f2f2;
+  }
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #00bfff;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 20px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    float: left; /* Add float property to position the images on the side */
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .clearfix { /* Add a clearfix class to clear the floating images */
+    clear: both;
+  }
+  .highlight {
+    background-color: #00bfff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
